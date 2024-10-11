@@ -1,0 +1,929 @@
+.navMain {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.navChildOne {
+    /* border: 1px solid red; */
+    width: 15%;
+    height: 80px;
+    margin-left: 62px;
+    color: green;
+}
+
+.navChildTwo {
+    /* border: 1px solid red; */
+    width: 45%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navChildThree {
+    /* border: 1px solid red; */
+    width: 35%;
+    height: 80px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navChildThree>img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.searchMenu {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    color: green;
+}
+
+.navChildThree>button {
+    width: 30%;
+    height: 56%;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+.navChildThree>button:nth-child(2) {
+    background-color: #3574d6;
+    color: white;
+    border: none;
+}
+
+.navChildThree>button:nth-child(1) {
+    background-color: white;
+    color: green;
+}
+
+.headerMain {
+    /* border: 1px solid; */
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    background-color: #15372c;
+}
+
+.subHeader {
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subHeader>div>img {
+    width: 160px;
+    margin-top: 60%;
+    border-radius: 20px;
+    height: 40%;
+}
+
+.subHeader>div>h1 {
+    font-size: 55px;
+    font-family: "Untitled Serif", Georgia, serif;
+    color: white;
+
+}
+
+.subHeader>div>p {
+    font-size: 20px;
+    font-family: "Untitled Serif", Georgia, serif;
+    color: white;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+
+.hireMain {
+    /* border: 1px solid; */
+    width: 95%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+
+.hireOne {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    background-color: #ffdaa9;
+}
+
+.hireTwo {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 700px;
+    text-align: center;
+}
+
+.hireTwo>img {
+    width: 100%;
+    height: 700px;
+}
+
+.hireOne>h1 {
+    font: inherit;
+    font-style: italic;
+    font-size: 5rem;
+    line-height: 1;
+    color: #15372c;
+    margin: 0px;
+    padding-top: 20%;
+}
+
+.hireOne>p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #15372c;
+    text-align: justify;
+    padding-left: 15%;
+    letter-spacing: .8;
+}
+
+.hireOne>div>button {
+    width: 30%;
+    height: 7%;
+    border-radius: 63px;
+    margin-left: -90px;
+    background-color: #ffdaa9;
+    color: #15372c;
+}
+
+.hireOne>button:hover {
+    background-color: #15372c;
+    color: white;
+}
+
+#watch {
+    color: #15372c;
+    margin-left: 40px;
+}
+
+.growButton {
+    width: 40%;
+    height: 15%;
+    border-radius: 55px;
+    background-color: #008561;
+    color: white;
+    border: none;
+}
+
+.growButton:hover {
+    background-color: #0a5a40;
+}
+
+.demo {
+    color: white;
+    margin-left: 20px;
+}
+
+
+.companyMain {
+    width: 96%;
+    height: 600px;
+    margin: auto;
+    /* margin-top: 50px; */
+    display: flex;
+}
+
+.companyChildOne {
+    width: 48%;
+    height: 311px;
+    /* text-align: center; */
+    padding-top: 12%;
+    ;
+}
+
+.companyChildOne>h1 {
+    font: inherit;
+    font-size: 3.2rem;
+    line-height: 1;
+    color: #15372c;
+    margin-left: 20%;
+
+}
+
+.companyChildOne>div>button {
+    width: 34%;
+    height: 15%;
+    border-radius: 55px;
+    background-color: #008561;
+    color: white;
+    border: none;
+    margin-left: 20%;
+}
+
+.companyChildOne>button:hover {
+    background-color: #0a5a40;
+}
+
+
+.companyChildTwo {
+    width: 48%;
+    height: 450px;
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.companyChildTwo>div>img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.companyChildTwo>div {
+    width: 30%;
+}
+
+.imageChild {
+    border: 1px solid;
+    height: 100px;
+    width: 60%;
+}
+
+.AtsHeading {
+    width: 79%;
+    height: 200px;
+    margin: auto;
+}
+
+.AtsHeading>h1 {
+    font: inherit;
+    font-size: 4.2rem;
+    line-height: 1;
+    color: #15372c;
+}
+
+.AtsMain {
+    width: 79%;
+    /* height: 400px; */
+    margin: auto;
+    display: flex;
+    gap: 30px;
+
+}
+
+.AtsMainChild {
+    width: 100%;
+    /* height: 300px; */
+}
+
+.AtsMainChild>h1 {
+    font: inherit;
+    font-size: 2.1rem;
+    color: #15372c;
+}
+
+.AtsMainChild>img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.everyThingMain {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 635px;
+    margin-top: auto;
+    margin-top: 80px;
+    background-color: #133026;
+}
+
+.childMain>div {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.childMain>div>h1 {
+    font: inherit;
+    font-size: 4.1rem;
+    color: white;
+}
+
+.childMain>div>div>button {
+    width: 32%;
+    height: 8%;
+    border-radius: 55px;
+    background-color: #3574d6;
+    color: white;
+    border: none;
+}
+
+.childMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.childMain>img {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.footerMain {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 800px;
+    background-color: #15372c;
+}
+
+
+.footerChild {
+    /* width: 80%; */
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.footerChild>div>p {
+    color: #4cb398;
+}
+
+.footerChild>div>h3 {
+    color: white;
+}
+
+.subsCribeButton {
+    width: 54%;
+    height: 8%;
+    border-radius: 55px;
+    background-color: #15372c;
+    color: white;
+    border: .5px white solid;
+    margin: 16px 0px
+}
+
+.subsCribeButton:hover {
+    border: .5px #008561 solid;
+}
+
+.subsInput {
+    width: 95%;
+}
+
+
+#select {
+    width: 95%;
+}
+
+
+
+@media all and (min-width : 480px) and (max-width : 1022px) {
+
+    .navMain {
+        width: 100%;
+    }
+
+    .navChildOne {
+        width: 0%;
+        margin-left: 17px;
+    }
+
+    .navChildTwo {
+        display: none;
+    }
+
+    .navChildThree>button {
+        display: none;
+    }
+
+    .navChildThree>img {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .navChildThree {
+        margin-left: 65%;
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .headerMain {
+        display: block;
+        height: 700px;
+    }
+
+    .subHeader {
+        display: block;
+    }
+
+    .subHeader>div>img {
+        width: 100px;
+        margin-top: 10%;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+    .subHeader>div>h1 {
+        font: inherit;
+        line-height: 109%;
+        font-size: 55px;
+        text-align: center;
+        font-style: italic;
+
+    }
+
+    .subHeader>div>p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #grow {
+        width: 250px;
+        margin: auto;
+    }
+
+    .growButton {
+        width: 100%;
+    }
+
+
+    #demoDiv {
+        margin: auto;
+        width: 145px;
+        margin-top: 20px;
+    }
+
+
+    .hireMain {
+        display: block;
+        height: 1210px;
+    }
+
+    .hireOne {
+        width: 100%;
+        height: 550px;
+    }
+
+    .hireTwo {
+        width: 100%;
+    }
+
+    .hireOne>h1 {
+        font-style: italic;
+        font-size: 59px;
+        line-height: 1;
+
+    }
+
+    .hireOne>p {
+        font-size: 16px;
+        text-align: justify;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .hireOne>div {
+        display: flex;
+        flex-direction: column;
+        height: 115px;
+        width: 309px;
+    }
+
+    .hireOne>div>button {
+        margin-left: 35px;
+        width: 180px;
+        height: 35%;
+    }
+
+    #watch {
+        margin: 20px;
+        margin-right: 60%;
+    }
+
+    .companyMain {
+        width: 100%;
+        display: block;
+        height: 860px;
+    }
+
+    .companyChildOne {
+        width: 100%;
+        height: 230px;
+    }
+
+    .companyChildOne>h1 {
+        font-size: 35px;
+        line-height: 1;
+        margin-left: 10%;
+        line-height: -1;
+
+    }
+
+    .companyChildOne>div {
+        width: 200px;
+    }
+
+    .companyChildOne>div>button {
+        height: 20%;
+        width: 100%;
+    }
+
+    .companyChildTwo {
+        width: 96%;
+        justify-content: space-around;
+    }
+
+    .companyChildTwo>div {
+        width: 25%;
+    }
+
+    .AtsHeading {
+        width: 90%;
+    }
+
+    .AtsHeading>h1 {
+        font: inherit;
+        font-size: 2.1rem;
+    }
+
+    .AtsMain {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+
+    .AtsMainChild {
+        width: 90%;
+        margin: auto;
+    }
+
+    .AtsMainChild>h1 {
+        font: inherit;
+        font-size: 1.5rem;
+    }
+
+
+    .everyThingMain {
+        height: 1060px;
+    }
+
+
+    .childMain>div>h1 {
+        font-size: 50px;
+        padding-top: 30px;
+    }
+
+    .childMain>div>div {
+        width: 210px;
+    }
+
+    .childMain>div>div>button {
+        width: 100%;
+        height: 55px;
+    }
+
+    .childMain {
+        display: block;
+    }
+
+    #tree {
+        width: 80%;
+    }
+
+    .childMain>div>img {
+        width: 100%;
+    }
+
+
+    .footerMain {
+        width: 100%;
+        height: 1500px;
+        background-color: #15372c;
+    }
+
+    .footerChild {
+        height: 500px;
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .subsInput {
+        width: 95%;
+        height: 10%;
+        border-radius: 12px;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    #select {
+        width: 95%;
+        height: 9%;
+        border-radius: 12px;
+    }
+}
+
+
+
+
+
+@media all and (min-width : 320px) and (max-width :479px) {
+
+    .navMain {
+        width: 98%;
+    }
+
+    .navChildOne {
+        width: 0%;
+        margin-left: 17px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navChildOne>h1 {
+        font-size: 20px;
+    }
+
+    .navChildTwo {
+        display: none;
+    }
+
+
+    .navChildThree {
+       margin-left: 54%;
+        width: 117px;
+    }
+
+
+    .navChildThree>button {
+        display: none;
+    }
+
+
+    .headerMain {
+        display: block;
+        height: 700px;
+    }
+
+    .subHeader {
+        display: block;
+    }
+
+    .subHeader>div>img {
+        width: 70px;
+        margin-top: 25%;
+        height: 20%;
+        margin-left: 35%;
+    }
+
+    .subHeader>div>h1 {
+        font: inherit;
+        line-height: 109%;
+        font-size: 40px;
+        text-align: center;
+        font-style: italic;
+
+    }
+
+    .subHeader>div>p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #grow {
+        width: 250px;
+        margin: auto;
+    }
+
+    .growButton {
+        width: 100%;
+    }
+
+
+    #demoDiv {
+        margin: auto;
+        width: 145px;
+        margin-top: 20px;
+    }
+
+
+    .hireMain {
+        display: block;
+        height: 1210px;
+    }
+
+    .hireOne {
+        width: 100%;
+        height: 550px;
+    }
+
+    .hireTwo {
+        width: 100%;
+    }
+
+    .hireOne>h1 {
+        /* font-style: italic; */
+        font-size: 35px;
+        /* line-height: 1; */
+
+    }
+
+    .hireOne>p {
+        font-size: 10px;
+        /* text-align: justify; */
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .hireOne>div {
+        display: flex;
+        flex-direction: column;
+        height: 115px;
+        width: 309px;
+    }
+
+    .hireOne>div>button {
+        margin-left: 35px;
+        width: 180px;
+        height: 35%;
+    }
+
+    #watch {
+        margin: 20px;
+        margin-right: 60%;
+    }
+
+    .companyMain {
+        width: 100%;
+        display: block;
+        height: 860px;
+    }
+
+    .companyChildOne {
+        width: 100%;
+        height: 230px;
+    }
+
+    .companyChildOne>h1 {
+        font-size: 30px;
+        line-height: 1;
+        margin-left: 5%;
+        line-height: -1;
+
+    }
+
+    .companyChildOne>div {
+        width: 200px;
+    }
+
+    .companyChildOne>div>button {
+        height: 20%;
+        width: 100%;
+    }
+
+    .companyChildTwo {
+        width: 96%;
+        justify-content: space-around;
+    }
+
+    .companyChildTwo>div {
+        width: 25%;
+    }
+
+    .AtsHeading {
+        width: 90%;
+    }
+
+    .AtsHeading>h1 {
+        font: inherit;
+        font-size: 2.1rem;
+    }
+
+    .AtsMain {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+
+    .AtsMainChild {
+        width: 90%;
+        margin: auto;
+    }
+
+    .AtsMainChild>h1 {
+        font: inherit;
+        font-size: 1.5rem;
+    }
+
+
+    .everyThingMain {
+        height: 1060px;
+    }
+
+    .subsCribeButton {
+        width: 86%;
+        height: 7%;
+        border-radius: 55px;
+        background-color: #15372c;
+        color: white;
+        border: .5px white solid;
+        margin: 50px 0px;
+    }
+
+
+    .childMain>div>h1 {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .childMain>div>div {
+        width: 210px;
+    }
+
+    .childMain>div>div>button {
+        width: 100%;
+        height: 55px;
+    }
+
+    .childMain {
+        display: block;
+    }
+
+    #tree {
+        width: 80%;
+    }
+
+    .childMain>div>img {
+        width: 100%;
+    }
+
+
+    .footerMain {
+        width: 100%;
+        height: 1500px;
+        background-color: #15372c;
+    }
+
+    .footerChild {
+        height: 500px;
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .subsInput {
+        width: 94%;
+        height: 7%;
+        border-radius: 12px;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    #select {
+        width: 90%;
+        height: 7%;
+        border-radius: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width : 1022px) and (max-width : 3000px) {
+
+    .searchMenu {
+        display: none;
+    }
+
+}
