@@ -618,6 +618,8 @@ a {
         padding-top: 100px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        width: 90%;
     }
 
     .subsInput {
@@ -831,7 +833,7 @@ a {
 
 
     .everyThingMain {
-        height: 1060px;
+        /* height: 1060px; */
     }
 
     .subsCribeButton {
@@ -883,6 +885,13 @@ a {
         padding-top: 100px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        width: 85%;
+        margin: auto;
+    }
+
+    .footerChild>div>h3 {
+            color: white;
+            font-size: 10px;
     }
 
     .subsInput {
